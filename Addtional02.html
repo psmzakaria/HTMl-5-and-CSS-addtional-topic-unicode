@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      ul.imageLI {
+        list-style-image: url ("images/btn_facebook.png");
+      }
+      ul.unicodeLI {
+        list-style-type: none;
+      }
+
+      ul.unicodeLI > li:before {
+        content: "/2605";
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color:red">Ordered/Unordered List</h1>
+    <ol style="font-size:1;">
+      <li>Change Numbering</li>
+      <li>Change Numbering</li>
+      <li>Change Numbering</li>
+    </ol>
+
+    <ol type="A">
+      <li>Item1</li>
+      <li>Item1</li>
+      <li>Item1</li>
+    </ol>
+
+    <ol type="i">
+      <li>Item1</li>
+      <li>Item1</li>
+      <li>Item1</li>
+    </ol>
+
+    <ol type="a">
+      <li>Item1</li>
+      <li>Item1</li>
+      <li>Item1</li>
+    </ol>
+    <h2>Useful Links</h2>
+    <!-- --_blank opens up in a new tab -->
+    <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank"
+      >Ordered List of numberings</a
+    >
+    <!-- Nested Lists -->
+    <ol type="I">
+      <li>
+        Item A
+        <ul>
+          <li>Item 1</li>
+          <li>Item 1</li>
+          <li>Item 1</li>
+        </ul>
+      </li>
+
+      <li>
+        Item B
+        <ul>
+          <li>Item 1</li>
+          <li>Item 1</li>
+          <li>Item 1</li>
+        </ul>
+      </li>
+    </ol>
+
+    <ol type="square">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+      </ul>
+    </ol>
+
+    <h3>Using Images as Bullets</h3>
+
+    <ul class="imageLI">
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <h3>Using Unicode Charactors as Bullets</h3>
+    <ul class="unicodeLI">
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+    <a
+      href="https://www.w3schools.com/charsets/ref_utf_symbols.asp"
+      target="_blank"
+      >Ordered List of numberings</a
+    >
+  </body>
+</html>
